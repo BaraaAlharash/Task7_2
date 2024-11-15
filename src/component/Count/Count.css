@@ -1,0 +1,87 @@
+.Count{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    bottom: -50% ;
+    left: 50%;
+    transform: translate(-50% ,50%);
+    background-color: rgb(255, 185, 255);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: safe;
+    align-items: center;
+        .resultCount{
+            width: 50%;
+            height: 25%;
+            background-color: rgb(121, 40, 121);
+            border-radius: 20px;
+            margin: 20px 0;
+            padding-top: 25px;
+            text-align: center;
+            font-size: 30px;
+        }
+        .custombg1000{
+            background-color: rgb(248, 190, 96);
+        }        
+        .custombg100{
+            background-color: rgb(157, 248, 96);
+        }        
+        .custombg10{
+            background-color: rgb(248, 96, 96);
+        }
+        .increaseCount{
+            width: 25%;
+            height: 25%;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(196, 145, 196);
+            font-size: 35px;
+        }
+        .decreaseCount{
+            margin: 20px 0;
+            width: 25%;
+            height: 25%;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(196, 145, 196);
+            font-size: 35px;
+        }
+}
+.Pop_Up{
+    width: 75vw;
+    height: 200px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-60%);
+    z-index: 1;
+    background-color: rgb(79, 17, 79);
+    border-radius: 20px;
+}
+.textPop_Up{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 20px;
+}
+.btnPop_Up{
+    margin: 1%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    background-color: rgb(34, 1, 34);
+    border-radius: 5px;
+    border: none;
+}
+.iconPop_Up{
+    font-size: 20px;
+    color: #fff;
+}
